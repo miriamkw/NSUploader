@@ -28,10 +28,10 @@ For Python integration, see [python-nightscout](https://github.com/miriamkw/pyth
 ## Nighscout configuration
 
 Note that sensitive credentials should be stored in a configuration file, `Config.swift`:
-
+```
 struct Config {
     static let url = "https://your_nightscout.database.com"
     static let apiSecret = "YOUR_API_KEY"
 }
-
+```
 
